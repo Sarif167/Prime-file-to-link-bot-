@@ -24,8 +24,8 @@ OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Prime_Movie_Request_bot') # with
 PICS = (environ.get('PICS', 'https://ibb.co/VpTJNNCN'))
 
 # channel link information
-CHANNEL = environ.get('CHANNEL', 'https://t.me/+E7QxOPPmPHhhZGNl')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/Prime_Botz_Support')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/MovieSearchAutoGroup')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/+aAmjR1AgZmRlOGJl')
 
 #Dont Remove My Credit @AV_BOTz_UPDATE 
 #This Repo Is By @BOT_OWNER26 
@@ -71,6 +71,6 @@ else:
 FQDN = str(getenv('FQDN', 'BIND_ADRESS:PORT')) if not ON_HEROKU or getenv('FQDN', '') else APP_NAME+'.herokuapp.com'
 HAS_SSL=bool(getenv('HAS_SSL',True))
 if HAS_SSL:
-    URL = "https://homely-cher-file-to-link-prime-bot-b98d6fc2.koyeb.app/".format(FQDN)
+    URL = "https://wet-idalia-owajbhai-96338bb4.koyeb.app/".format(FQDN)
 else:
-    URL = "https://homely-cher-file-to-link-prime-bot-b98d6fc2.koyeb.app/".format(FQDN)
+    URL = "https://wet-idalia-owajbhai-96338bb4.koyeb.app/".format(FQDN)

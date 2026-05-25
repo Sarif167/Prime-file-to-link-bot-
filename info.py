@@ -15,8 +15,8 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 BOT_USERNAME = environ.get("BOT_USERNAME", 'movieLover1_Bot') # without @ 
 
 # Admins, Channels & Users
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-100')) # admin your channel in stream 
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-100')) # admin your channel in users log 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1003184409377')) # admin your channel in stream 
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1003184409377')) # admin your channel in users log 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1249672673').split()] # 3567788, 678899, 5889467
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Prime_Movie_Request_bot') # without @ 
 
@@ -24,7 +24,7 @@ OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Prime_Movie_Request_bot') # with
 PICS = (environ.get('PICS', 'https://ibb.co/VpTJNNCN'))
 
 # channel link information
-CHANNEL = environ.get('CHANNEL', 'https://t.me/Prime_Botz')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/+E7QxOPPmPHhhZGNl')
 SUPPORT = environ.get('SUPPORT', 'https://t.me/Prime_Botz_Support')
 
 #Dont Remove My Credit @AV_BOTz_UPDATE 
@@ -37,7 +37,7 @@ BAN_CHNL = [int(ban_chal) if id_pattern.search(ban_chal) else ban_chal for ban_c
 BAN_ALERT = environ.get('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.ᴄᴏɴᴛᴀᴄᴛ [ᴏᴡɴᴇʀ](https://telegram.me/Prime_Bots_Support_RoBot) ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>')
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://speedmoviemongo_db_user:speedmoviemongo_db_user@cluster0.cn0mazk.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # fsub  information
